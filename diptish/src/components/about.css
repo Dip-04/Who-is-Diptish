@@ -1,0 +1,11 @@
+.container1 {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+  
+  .container1.animate {
+    opacity: 1;
+  }
+  .resume1{
+    width: 130px!important;
+  }

@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.hello{
+  font-size: 100px;
+  color: black;
+}
+.who{
+  font-size: 25px;
+  color: black;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #0050ff; /* Set your desired color for the active link */
+
+}
+.active-link {
+  color: #0050ff; /* Set your desired color for the active link */
+}
+.media{
+  width: 404px;
+  color: black;
+}
+.i{
+  font-size: 28px;
+}
+.email{
+  padding: 0px 74px;
+}
+.row1 {
+  position: absolute;
+  left: 270px;
+  width: auto;
+}
+.abo{
+  width: 505px;
+}
+.resume, .project{
+  border-radius: 20px;
+  font-size: 15px;
+  width: 130px; 
+
+}
+
+.resume:hover{
+
+  border: solid #0050ff 2px;
+  background-color: azure;
+  color: black;
+}
+.infobox{
+  text-align: left;
+  font-size: 17px;
+  margin-left: 75px;
+}
+.blue{
+  border-bottom: solid #0050ff;
+  width: 100px;
+  align-self: center;
+}
+.project:hover{
+
+  border:  rgb(0, 0, 0) 2px;
+  background-color: #0050ff;
+  color: rgb(255, 255, 255);
+}
+.imgbox{
+
+  padding: 0;
+  width: auto;
+ 
+}
+a{
+  color: black;
+
+}
+
+.title1{
+  color: #f4ece6;
+  text-decoration:underline #0050ff 2px ;
+
+}
+ 
+.pro{
+  margin-top: 30px;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+.img{
+
+left: 230px;
+width: 404px;
+height: 494.4px;}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  .row1 {
+    position: relative;
+    left: 0px;
+    width: auto;
+}
+.box1{
+  
+ flex-wrap: wrap;
+
+}
+.abo {
+  width: 404px;
+}
+}
+@media (max-width: 1224px) {
+  .row1 {
+    position: absolute;
+    left: 0px;
+    width: auto;
+}
+.vertical-line {
+  border-left: 2px solid #000;
+  height: calc(146% - 20px);
+  position: absolute;
+  top: 708px;
+  left: 28.65%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+}
+@media (max-width: 940px) {
+  
+.abo {
+  width: 405px;
+}
+}
+
+.logo{
+  width: 45px;
+  height: 40px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
